@@ -2,11 +2,10 @@
 // Generated with jaspr_builder
 
 import 'package:jaspr/jaspr.dart';
-import 'package:degpuhub/components/counter.dart' as prefix0;
-import 'package:degpuhub/components/header.dart' as prefix1;
-import 'package:degpuhub/pages/about.dart' as prefix2;
-import 'package:degpuhub/pages/home.dart' as prefix3;
-import 'package:degpuhub/app.dart' as prefix4;
+import 'package:degpuhub/components/header.dart' as prefix0;
+import 'package:degpuhub/pages/about.dart' as prefix1;
+import 'package:degpuhub/pages/home.dart' as prefix2;
+import 'package:degpuhub/app.dart' as prefix3;
 
 /// Default [JasprOptions] for use with your jaspr project.
 ///
@@ -26,13 +25,12 @@ import 'package:degpuhub/app.dart' as prefix4;
 /// ```
 final defaultJasprOptions = JasprOptions(
   clients: {
-    prefix2.About: ClientTarget<prefix2.About>('pages/about'),
-    prefix3.Home: ClientTarget<prefix3.Home>('pages/home'),
+    prefix1.About: ClientTarget<prefix1.About>('pages/about'),
+    prefix2.Home: ClientTarget<prefix2.Home>('pages/home'),
   },
   styles: () => [
-    ...prefix0.CounterState.styles,
-    ...prefix1.Header.styles,
-    ...prefix2.About.styles,
-    ...prefix4.App.styles,
+    ...prefix0.Header.styles,
+    ...prefix1.About.styles,
+    ...prefix3.App.styles,
   ],
 );

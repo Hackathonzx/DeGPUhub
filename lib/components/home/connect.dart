@@ -4,7 +4,7 @@ class MetaMaskConnect extends StatelessComponent {
   @override
   Iterable<Component> build(BuildContext context) {
     return [
-      DomComponent(
+      const DomComponent(
         tag: 'head',
         children: [
           DomComponent(tag: 'meta', children: []),
@@ -23,7 +23,7 @@ class MetaMaskConnect extends StatelessComponent {
 
 
 
-      DomComponent(
+      const DomComponent(
         tag: 'body',
         children: [
           // DomComponent(

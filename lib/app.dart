@@ -26,7 +26,7 @@ class App extends StatelessComponent {
     // Renders a <div class="main"> html element with children.
     yield div(classes: 'main', [
       Router(routes: [
-        Route(path: '/', title: 'Home', builder: (context, state) => Home()),
+        Route(path: '/', title: 'Home', builder: (context, state) => const Home()),
         Route(path: '/about', title: 'About', builder: (context, state) => const About()),
         Route(path: '/dashboard', title: 'Dashboard', builder: (context, state) =>  Dash.App()),
         
@@ -48,7 +48,7 @@ class App extends StatelessComponent {
     css('.main', [
       // The '&' refers to the parent selector of a nested style rules.
       css('&').box(height: 100.vh).flexbox(direction: FlexDirection.column, wrap: FlexWrap.wrap),
-      css('section').flexItem(flex: Flex(grow: 1)).flexbox(
+      css('section').flexItem(flex: const Flex(grow: 1)).flexbox(
         direction: FlexDirection.column,
         justifyContent: JustifyContent.center,
         alignItems: AlignItems.center,

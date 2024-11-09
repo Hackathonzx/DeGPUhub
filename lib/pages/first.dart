@@ -245,7 +245,7 @@ a(events: {
 
 
 
-      DomComponent(
+      const DomComponent(
         tag: 'div',
         children: [
           // DomComponent(

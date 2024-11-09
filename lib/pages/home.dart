@@ -537,15 +537,11 @@
 
 
 import 'package:degpuhub/components/footer.dart';
-import 'package:degpuhub/components/header.dart';
 import 'package:degpuhub/components/home/faq.dart';
 import 'package:degpuhub/components/home/features.dart';
 import 'package:degpuhub/components/home/realestate.dart';
-import 'package:degpuhub/components/home/team.dart';
-import 'package:degpuhub/components/overlaymenu.dart';
 import 'package:jaspr/jaspr.dart';
 
-import '../components/counter.dart';
 import 'package:degpuhub/pages/first.dart' as First;
 
 // By using the @client annotation this component will be automatically compiled to javascript and mounted

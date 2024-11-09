@@ -29,7 +29,7 @@ class CounterWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text('Flutter Counter'),
-                Text('$count', style: TextStyle(fontWeight: FontWeight.bold)),
+                Text('$count', style: const TextStyle(fontWeight: FontWeight.bold)),
               ],
             ),
             const SizedBox(width: 5),

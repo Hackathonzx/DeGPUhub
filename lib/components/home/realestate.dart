@@ -29,30 +29,30 @@ class RealEstateComponent extends StatelessComponent {
       ])
     ]);
 
-    yield DomComponent(tag: 'body', attributes: {'class': 'bg-gradient text-white'}, children: [
-      DomComponent(tag: 'div', attributes: {'class': 'container mx-auto px-4 py-16 flex flex-col md:flex-row items-center'}, children: [
-        DomComponent(tag: 'div', attributes: {'class': 'md:w-1/2'}, children: [
-          DomComponent(tag: 'h1', attributes: {'class': 'text-4xl md:text-5xl font-bold leading-tight mb-4'}, children: [
-            text('Democratising real estate investing using '),
-            DomComponent(tag: 'span', attributes: {'class': 'text-gradient'}, children: [
+    yield DomComponent(tag: 'body', attributes: const {'class': 'bg-gradient text-white'}, children: [
+      DomComponent(tag: 'div', attributes: const {'class': 'container mx-auto px-4 py-16 flex flex-col md:flex-row items-center'}, children: [
+        DomComponent(tag: 'div', attributes: const {'class': 'md:w-1/2'}, children: [
+          DomComponent(tag: 'h1', attributes: const {'class': 'text-4xl md:text-5xl font-bold leading-tight mb-4'}, children: [
+            text('Democratising AI investing using '),
+            DomComponent(tag: 'span', attributes: const {'class': 'text-gradient'}, children: [
               text('blockchain technology')
             ])
           ]),
-          DomComponent(tag: 'p', attributes: {'class': 'text-lg md:text-xl mb-6'}, children: [
-            text('Estate Protocol is a platform that\'s going to remove the friction from real estate investments. We are launching a marketplace where we would create custom non-fungible tokens for each property listed, enabling fractional real estate investing that is accessible to everyone.')
+          DomComponent(tag: 'p', attributes: const {'class': 'text-lg md:text-xl mb-6'}, children: [
+            text('Estate Protocol is a platform that\'s going to remove the friction from AI investments. We are launching a marketplace where we would create custom non-fungible tokens for each property listed, enabling fractional AI investing that is accessible to everyone.')
           ]),
-          DomComponent(tag: 'p', attributes: {'class': 'text-lg md:text-xl'}, children: [
+          DomComponent(tag: 'p', attributes: const {'class': 'text-lg md:text-xl'}, children: [
             const DomComponent(tag: 'span', attributes: {'class': 'inline-block w-8 h-1 bg-green-500 mr-2'}),
             text('We aim to bring the entry ticket down to '),
-            DomComponent(tag: 'span', attributes: {'class': 'font-bold'}, children: [
+            DomComponent(tag: 'span', attributes: const {'class': 'font-bold'}, children: [
               text('under \$100')
             ]),
             text(', reducing it by over 99%.')
           ])
         ]),
-        DomComponent(tag: 'div', attributes: {'class': 'md:w-1/2 flex flex-wrap justify-center mt-8 md:mt-0'}, children: [
+        DomComponent(tag: 'div', attributes: const {'class': 'md:w-1/2 flex flex-wrap justify-center mt-8 md:mt-0'}, children: [
           for (int i = 1; i <= 9; i++)
-            DomComponent(tag: 'div', attributes: {'class': 'w-1/3 p-2'}, children: [
+            DomComponent(tag: 'div', attributes: const {'class': 'w-1/3 p-2'}, children: [
               DomComponent(tag: 'img', attributes: {
                 'alt': 'Cryptocurrency icon $i',
                 'class': 'w-full h-full object-cover rounded-lg shadow-lg',

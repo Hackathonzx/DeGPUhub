@@ -1,5 +1,4 @@
 import 'package:degpuhub/components/header.dart';
-import 'package:degpuhub/components/navbar.dart';
 import 'package:jaspr/jaspr.dart';
 
 // By using the @client annotation this component will be automatically compiled to javascript and mounted
