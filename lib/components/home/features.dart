@@ -45,7 +45,7 @@ class FeaturesComponent extends StatelessComponent {
                 text('Cash-out your yield everyday')
               ]),
               DomComponent(tag: 'p', attributes: const {'class': 'mb-4'}, children: [
-                text('Estate Protocol will have high yield properties, owners can cash out the income their property generates every day.')
+                text('DeGPUhub will have high yield properties, owners can cash out the income their property generates every day.')
               ]),
               DomComponent(tag: 'a', attributes: const {'class': 'text-blue-400 flex items-center', 'href': '#'}, children: [
                 DomComponent(tag: 'span', attributes: const {'class': 'mr-2'}, children: [
@@ -91,7 +91,7 @@ class FeaturesComponent extends StatelessComponent {
                 text('Fully legally compliant')
               ]),
               DomComponent(tag: 'p', attributes: const {'class': 'mb-4'}, children: [
-                text('Estate Protocol would be fully compliant with the law wherever we list, to make sure our investors are protected by the legal system.')
+                text('DeGPUhub would be fully compliant with the law wherever we list, to make sure our investors are protected by the legal system.')
               ]),
               DomComponent(tag: 'a', attributes: const {'class': 'text-blue-400 flex items-center', 'href': '#'}, children: [
                 DomComponent(tag: 'span', attributes: const {'class': 'mr-2'}, children: [

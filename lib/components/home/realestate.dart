@@ -39,7 +39,7 @@ class RealEstateComponent extends StatelessComponent {
             ])
           ]),
           DomComponent(tag: 'p', attributes: const {'class': 'text-lg md:text-xl mb-6'}, children: [
-            text('Estate Protocol is a platform that\'s going to remove the friction from AI investments. We are launching a marketplace where we would create custom non-fungible tokens for each property listed, enabling fractional AI investing that is accessible to everyone.')
+            text('DeGPUhub is a platform that\'s going to remove the friction from AI investments. We are launching a marketplace where we would create custom non-fungible tokens for each property listed, enabling fractional AI investing that is accessible to everyone.')
           ]),
           DomComponent(tag: 'p', attributes: const {'class': 'text-lg md:text-xl'}, children: [
             const DomComponent(tag: 'span', attributes: {'class': 'inline-block w-8 h-1 bg-green-500 mr-2'}),

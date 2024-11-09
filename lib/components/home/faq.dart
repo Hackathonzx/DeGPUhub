@@ -30,7 +30,7 @@ class FaqComponent extends StatelessComponent {
             DomComponent(tag: 'div', attributes: const {'class': 'faq-item'}, children: [
               DomComponent(tag: 'div', attributes: const {'class': 'flex justify-between items-center cursor-pointer'}, children: [
                 DomComponent(tag: 'h2', attributes: const {'class': 'text-xl font-bold'}, children: [
-                  text('If the project is going to be based on ERC1155, why are you releasing your token on Binance Smart Chain?')
+                  text('If the project is going to be based on EMC, why are you releasing your token on Binance Smart Chain?')
                 ]),
                 const DomComponent(tag: 'i', attributes: {'class': 'fas fa-plus text-xl'})
               ]),
@@ -52,7 +52,7 @@ class FaqComponent extends StatelessComponent {
             DomComponent(tag: 'div', attributes: const {'class': 'faq-item'}, children: [
               DomComponent(tag: 'div', attributes: const {'class': 'flex justify-between items-center cursor-pointer'}, children: [
                 DomComponent(tag: 'h2', attributes: const {'class': 'text-xl font-bold'}, children: [
-                  text('Why should we buy the ESTATE token?')
+                  text('Why should we buy the DeGPUhub token?')
                 ]),
                 const DomComponent(tag: 'i', attributes: {'class': 'fas fa-plus text-xl'})
               ]),

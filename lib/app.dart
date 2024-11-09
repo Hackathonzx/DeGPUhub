@@ -1,10 +1,7 @@
-import 'package:degpuhub/components/navbar.dart';
-import 'package:degpuhub/components/overlaymenu.dart';
 import 'package:jaspr/jaspr.dart';
 import 'package:jaspr_router/jaspr_router.dart';
 import 'package:degpuhub/pages/dashboard.dart' as Dash;
 
-import 'components/header.dart';
 import 'pages/about.dart';
 import 'pages/home.dart';
 
